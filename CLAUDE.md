@@ -16,6 +16,14 @@ kefi/
 
 Para ver: abrir `index.html` direto no navegador (`start index.html` no Windows). Não precisa de servidor.
 
+## Deploy (GitHub Pages)
+
+- Repositório: https://github.com/VitinIMORRIVEL/kefi (público, branch `main`)
+- Site no ar: https://vitinimorrivel.github.io/kefi/
+- Pages publica a raiz da branch `main`. Para atualizar o site: commit + `git push` na `main`; o deploy leva ~1 min.
+- Acompanhar build: `gh api repos/VitinIMORRIVEL/kefi/pages/builds/latest --jq .status`
+- Use sempre caminhos relativos (`img/logo.png`, não `/img/logo.png`) — o site fica num subcaminho `/kefi/`.
+
 ## Dados reais do negócio (fonte: Instagram @kefi_burguer)
 
 | Item | Valor |
