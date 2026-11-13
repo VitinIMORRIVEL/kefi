@@ -10,7 +10,7 @@ kefi/
 ├── style.css         # todo o visual; variáveis de cor em :root
 ├── img/
 │   ├── logo.png          # logo oficial (fundo laranja, quadrada)
-│   └── burger-banner.png # post do Instagram; o hambúrguer fica à esquerda
+│   └── burger.jpg        # post "Venha comer um burguer" inteiro, estendido p/ 820x820 (margem só à direita/topo/base p/ caber no círculo); exibido em círculo no hero
 └── CLAUDE.md
 ```
 
@@ -68,7 +68,7 @@ Padrões visuais: botões em pílula com gradiente laranja→vermelho, cards com
 ## Seções da página (ordem)
 
 1. `.header` — fixo; fica com fundo ao rolar (`.header--scrolled`); vira menu lateral abaixo de 860px
-2. `.hero` — título, CTAs, info rápida e imagem do burger (crop circular via `object-position: 0% 50%`)
+2. `.hero` — título, CTAs, info rápida e imagem do burger (foto em círculo com borda amarela)
 3. `.marquee` — faixa rolando (conteúdo duplicado de propósito para o loop infinito)
 4. `#cardapio` — cards (`.card`, destaque com `.card--featured`)
 5. `#diferenciais` — 4 `.feature`
